@@ -14,7 +14,7 @@ It includes **user authentication (register/login)** and **note management (CRUD
 
 ---
 
-## ⚙️ Features
+##  Features
 - 👤 User registration and login (with JWT authentication)
 - 📝 Add, view, update, and delete notes
 - 🔒 Secure password storage using bcrypt
@@ -23,4 +23,30 @@ It includes **user authentication (register/login)** and **note management (CRUD
 
 ---
 
-## 🧩 Folder Structure
+##  Folder Structure
+
+##  How to Run Locally
+
+### 1️ Start the Backend
+```bash
+cd server
+npm install
+npm run dev
+
+### 2 Start the Frontend
+cd ../client
+npm install
+npm start
+
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./screenshots/Home.png.png)
+
+### 📝 Register Page
+![Register Page](./screenshots/register.png.png)
+
+### 🗃️ MongoDB Compass
+![MongoDB](./screenshots/MongoDB.png.png)
+
